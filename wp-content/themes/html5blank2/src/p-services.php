@@ -31,7 +31,7 @@
 
 
 
-        <section class="serv-tabs section-padding bg-img" id="Services" data-overlay-dark="0" style="background-image : url(<?php echo $services['image_1'] ?>)" data-scroll-index="2">
+        <section class="serv-tabs section-padding bg-img" id="Services" data-overlay-dark="0" style="background-image : url(<?php echo $services['image_1'] ?>);" data-scroll-index="2">
             <div class="container">
                 <div class="row">
 
@@ -47,23 +47,26 @@
                         <div class="content">
                             <div id="tab-1-content" class="tab-item curent">
                                 <p class="service-subheader">Executive Search</p>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="item bord" style="border-right: 2px solid #fff;">
-                                            <p><?php echo $executive_search_left_text?></p>
+                                <div class="service-text-grey-background">
+                                  <div class="row" style="max-width: 100%; margin: 0 auto;">
+                                        <div class="col-lg-6">
+                                            <div class="item bord" style="border-right: 2px solid #fff;">
+                                                <p><?php echo $executive_search_left_text?></p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="item bord">
-                                            <p><?php echo $executive_search_right_text ?></p>
+                                        <div class="col-lg-6">
+                                            <div class="item bord">
+                                                <p><?php echo $executive_search_right_text ?></p>
+                                            </div>
                                         </div>
-                                    </div>
+                                  </div>
                                 </div>
                             </div>
 
                             <div id="tab-2-content" class="tab-item">
                               <p class="service-subheader">Interim Management</p>
-                                <div class="row">
+                              <div class="service-text-grey-background">
+                                <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
                                         <div class="item bord" style="border-right: 2px solid #fff;">
                                             <p><?php echo $interim_management_right_text ?></p>
@@ -75,11 +78,13 @@
                                         </div>
                                     </div>
                                 </div>
+                              </div>
                             </div>
 
                             <div id="tab-3-content" class="tab-item">
                               <p class="service-subheader">Executive Coaching</p>
-                                <div class="row">
+                              <div class="service-text-grey-background">
+                                <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
                                         <div class="item bord" style="border-right: 2px solid #fff;">
                                             <p><?php echo $executive_coaching_left_text ?></p>
@@ -91,11 +96,13 @@
                                         </div>
                                     </div>
                                 </div>
+                              </div>
                             </div>
 
                             <div id="tab-4-content" class="tab-item">
-                            <p class="service-subheader">Organisational Consulting</p>
-                                <div class="row">
+                              <p class="service-subheader">Organisational Consulting</p>
+                              <div class="service-text-grey-background">
+                                <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
                                         <div class="item bord" style="border-right: 2px solid #fff;">
                                             <p><?php echo $organisational_consulting_left_text ?></p>
@@ -107,8 +114,8 @@
                                         </div>
                                     </div>
                                 </div>
+                              </div>
                             </div>
-
                         </div>
 
                         <div class="tabs-icon row">
