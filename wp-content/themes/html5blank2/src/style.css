@@ -1581,8 +1581,9 @@ div.wpcf7 {
   color: #312884;
   cursor: pointer;
   border: 1px solid white;
+  display: block;
   text-align: center;
-  width: 60%;
+  width: 62%;
   margin: 82px auto 0;
   padding: 0.75em;
   border-radius: 0.5em;
