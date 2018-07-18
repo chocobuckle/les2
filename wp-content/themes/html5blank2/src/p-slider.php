@@ -39,8 +39,8 @@
                             <div class="v-middle caption mt-30">
                                 <div class="slider-background">
                                     <h3>Executive Coaching</h3>
-                                    <h1>MENTORED DEVELOPMENT FOR <span>TOP PERFORMERS</span></h1>
-                                    <p>Keeping your leadership sharp</p>
+                                    <h1>KEEPING YOUR LEADERSHIP <span>SHARP</span></h1>
+                                    <p>Mentored development for top performers</p>
                                     <!-- <a href="#0" class="butn butn-bord" data-scroll-nav="1">
 										<span>FIND OUT MORE</span>
                                     </a>

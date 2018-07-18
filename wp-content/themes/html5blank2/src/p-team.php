@@ -42,14 +42,14 @@
                                                   $vcard = get_sub_field('vcard', 'option');
                                                   ?>
                                                   <br>
-                                                  <!-- <div style="display: flex; justify-content: space-between;">
-                                                    <a style="font-size: 1.5rem;" href="tel:<?php echo $telephone ?>">T: <?php echo $telephone ?></a>
-                                                    <a href="<?php echo $vcard ?>"><div class="vcard-button"></div></a>
+                                                  <div class="contact-wrapper">
+                                                    <a class="contact-ph" href="tel:<?php echo $telephone ?>">T: <?php echo $telephone ?></a>
+                                                    <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
                                                   </div>
-                                                  <div class="contact-details-wrapper">
-                                                    <a href="tel:<?php echo $mobile ?>">M: <?php echo $mobile ?></a>
-                                                    <a href="<?php echo $linkedin ?>"></a>
-                                                  </div> -->
+                                                  <div class="contact-wrapper">
+                                                    <a class="contact-ph" href="tel:<?php echo $mobile ?>">M: <?php echo $mobile ?></a>
+                                                    <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
+                                                  </div>
                                                   <!-- <a href="mailto:<?php echo $email ?>"></a> -->
                                               <?php endwhile;
                                                   else :
