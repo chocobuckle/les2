@@ -50,7 +50,7 @@
                                 <div class="service-text-grey-background">
                                   <div class="row" style="max-width: 100%; margin: 0 auto;">
                                         <div class="col-lg-6">
-                                            <div class="item bord" style="border-right: 2px solid #fff;">
+                                            <div class="item bord service-border">
                                                 <p><?php echo $executive_search_left_text?></p>
                                             </div>
                                         </div>
@@ -68,7 +68,7 @@
                               <div class="service-text-grey-background">
                                 <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
-                                        <div class="item bord" style="border-right: 2px solid #fff;">
+                                        <div class="item bord service-border">
                                             <p><?php echo $interim_management_right_text ?></p>
                                         </div>
                                     </div>
@@ -86,7 +86,7 @@
                               <div class="service-text-grey-background">
                                 <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
-                                        <div class="item bord" style="border-right: 2px solid #fff;">
+                                        <div class="item bord service-border">
                                             <p><?php echo $executive_coaching_left_text ?></p>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@
                               <div class="service-text-grey-background">
                                 <div class="row" style="max-width: 100%; margin: 0 auto;">
                                     <div class="col-lg-6">
-                                        <div class="item bord" style="border-right: 2px solid #fff;">
+                                        <div class="item bord service-border">
                                             <p><?php echo $organisational_consulting_left_text ?></p>
                                         </div>
                                     </div>
