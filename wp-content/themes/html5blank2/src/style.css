@@ -1581,13 +1581,13 @@ div.wpcf7 {
   color: #312884;
   cursor: pointer;
   border: 1px solid white;
-  display: block;
+  display: inline-block;
   text-align: center;
-  width: 62%;
   margin: 82px auto 0;
   padding: 0.75em;
   border-radius: 0.5em;
   font-weight: 600;
+  text-decoration: none;
 }
 
 #last-service-button {
@@ -1602,7 +1602,10 @@ div.wpcf7 {
 
 @media screen and (max-width: 767px) {
   #last-service-button {
-    padding-bottom: 0;
+    padding-bottom: 1.4em;
+  }
+  #last-service-button span.icon {
+    margin-bottom: 0;
   }
 }
 
