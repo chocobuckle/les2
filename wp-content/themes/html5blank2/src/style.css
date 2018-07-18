@@ -478,6 +478,10 @@ span, a, a:hover {
   background : url("/lansdowne/wp-content/themes/html5blank2/images/group-shot.jpg") left center / cover no-repeat;
 }
 
+.vcard-button {
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg") left center / cover no-repeat;
+}
+
 .service-subheader {
   font-size: 38px;
   font-weight: 200;
@@ -780,9 +784,9 @@ span, a, a:hover {
     position: absolute;
     top: 0;
     left: 0; }
-  .team .titem .team-img:hover img {
+  /* .team .titem .team-img:hover img {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
+            transform: scale(1.2); } */
 
 .team .titem img {
   -webkit-transition: all .5s;
@@ -1508,6 +1512,22 @@ div.wpcf7 {
   border-right: 1px solid #fff;
 }
 
+.sectors-width {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .sectors-width {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .sectors-width {
+    width: 100%;
+  }
+}
+
 .sectors-list {
   color: #fff;
   font-size: 1.8rem;
@@ -1519,6 +1539,20 @@ div.wpcf7 {
 
 .sectors-list-item {
   margin-bottom: 1em;
+}
+
+.confidential-button {
+  background : linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(241, 242, 242, 1) 37.52%, rgba(234, 235, 235, 1) 46.97%, rgba(213, 214, 214, 1) 61.13%, rgba(180, 181, 181, 1) 78.25%, rgba(134, 134, 134, 1) 97.54%, rgba(128, 128, 128, 1) 100%);
+  font-size: 1.8rem;
+  color: #312884;
+  cursor: pointer;
+  border: 1px solid white;
+  text-align: center;
+  width: 60%;
+  margin: 82px auto 0;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  font-weight: 600;
 }
 
 /**
@@ -21708,7 +21742,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-------------------------------------------------------
     [ Preloader ]
 -------------------------------------------------------*/
-/* .loading {
+.loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -21804,4 +21838,4 @@ h1, h2, h3, h4, h5, h6 {
             transform: translate(0, 0); }
   100% {
     -webkit-transform: translate(19px, 0);
-            transform: translate(19px, 0); } } */
+            transform: translate(19px, 0); } }
