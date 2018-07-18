@@ -41,9 +41,9 @@ solutions, in addition to tailored Executive Coaching and Organisational Consult
                             <li class="sectors-list-item" style="margin-bottom: 0;">Education</li>
                           </ul>
                         </div>
-
-                          <button class="confidential-button">FOR A CONFIDENTIAL DISCUSSION PLEASE CONTACT US</button>
-
+                        <div style="display: flex; justify-content;">
+                          <a data-scroll-nav="5" style="text-decoration: none;" class="confidential-button">FOR A CONFIDENTIAL DISCUSSION PLEASE CONTACT US</a>
+                        </div>
                     </div>
 
                     <div class="row">

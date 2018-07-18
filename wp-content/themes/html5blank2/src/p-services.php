@@ -142,12 +142,12 @@
                             </div>
 
                             <div id="tab-4" class="col-md-3 col-sm-6 item">
-                                <div>
+                                <div id="last-service-button">
                                     <span class="icon"><i style="font-size: 36px;" class="icofont icofont-touch"></i></span>
-                                    <h6>Organisational Consulting</h6>
+                                    <h6>Organisational</h6>
+                                    <h6>Consulting</h6>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

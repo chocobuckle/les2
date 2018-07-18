@@ -82,7 +82,7 @@
 
             <!-- Logo -->
             <a class="logo" href="#">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="logo">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="logo" />
 			</a>
 
 
@@ -94,29 +94,6 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 				<?php html5blank_nav(); ?>
-			    <!-- <ul class="navbar-nav ml-auto">
-			      <li class="nav-item">
-			        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
-			      </li>
-			      <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="1">About</a>
-                  </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="2">Portfolio</a>
-			      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="3">Services</a>
-                  </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="4">Price</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="5">Blog</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
-			      </li>
-			    </ul> -->
 			  </div>
 			</div>
 		</nav>
@@ -133,44 +110,6 @@
 				for (i =0 ; i <= lenghtMenu ; i++) {
 					$( ".navbar-nav li a:eq("+ i +")" ).attr("data-scroll-nav",i);
 				}
-
-
-				var HomePage = new Waypoint({
-					element: document.getElementById('navbarSupportedContent'),
-					handler: function() {
-						$('.navbar-nav li a').removeClass("active");
-						$( ".navbar-nav li a:contains('Home')" ).addClass( "active");
-					}
-				})
-
-				var OurPeople = new Waypoint({
-					element: document.getElementById('OurPeople'),
-					handler: function() {
-						console.log('OurPeople triggered');
-					}
-				})
-
-				var ServicesAndSectors = new Waypoint({
-					element: document.getElementById('ServicesAndSectors'),
-					handler: function() {
-						console.log('ServicesAndSectors triggered');
-					}
-				})
-
-				var CurrentOpportunities = new Waypoint({
-					element: document.getElementById('CurrentOpportunities'),
-					handler: function() {
-						console.log('CurrentOpportunities triggered');
-					}
-				})
-
-				var  ContactUs = new Waypoint({
-					element: document.getElementById('ContactUs'),
-					handler: function() {
-						console.log('ContactUs triggered');
-					}
-				})
-
 			});
 
 			</script>
