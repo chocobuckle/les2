@@ -860,10 +860,33 @@ span, a, a:hover {
 #OurPeople p.contact-ph {
   width: 100%;
   font-size: 1.4rem;
+  text-align: left;
 }
 
 #OurPeople a.contact-social {
   margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  div.social {
+    margin-top: 0;
+  }
+  div.social br {
+    display: none;
+  }
+  #OurPeople p.contact-ph {
+    text-align: center;
+  }
+  #OurPeople div.contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  #OurPeople div.contact-social-wrapper {
+    width: 50%;
+  }
+  #OurPeople a.contact-social {
+    margin: 0.2em auto;
+  }
 }
 
 /* ----------------------------------------------------------------
