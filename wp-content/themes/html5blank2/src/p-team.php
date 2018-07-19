@@ -42,17 +42,17 @@
                                                   $vcard = get_sub_field('vcard', 'option');
                                                   ?>
                                                   <br>
-                                                  <div class="contact-wrapper">
-                                                    <div class="contact-ph-wrapper">
+                                                  <div>
+                                                    <div class="contact-first-wrapper">
                                                       <p class="contact-ph">T: <?php echo $telephone ?></p>
+                                                      <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
+                                                    </div>
+                                                    <div class="contact-second-wrapper">
                                                       <?php
                                                         if ($name !== 'Caroline Devlin') {
                                                           echo '<p class="contact-ph">M: '.$mobile.'</p>';
                                                         }
                                                       ?>
-                                                    </div>
-                                                    <div class="contact-social-wrapper">
-                                                      <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
                                                       <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
                                                     </div>
                                                   </div>

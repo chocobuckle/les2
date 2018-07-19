@@ -838,37 +838,21 @@ span, a, a:hover {
   text-align: justify;
   font-size: 16px; }
 
-  #OurPeople .contact-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
+#OurPeople div.contact-first-wrapper,
+#OurPeople div.contact-second-wrapper {
+  display: flex;
+}
 
-  #OurPeople .contact-ph-wrapper,
-  #OurPeople .contact-social-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
+#OurPeople p.contact-ph {
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: left;
+}
 
-  #OurPeople .contact-ph-wrapper {
-    width: 100%;
-    justify-content: center;
-  }
-
-  #OurPeople .contact-ph {
-    font-size: 1.5rem;
-    margin: 0 0;
-    text-align: left;
-    display: inline;
-  }
-
-  #OurPeople .contact-social-wrapper {
-    justify-content: center;
-  }
-
-  #OurPeople .contact-social {
-    margin: 0;
-  }
+#OurPeople a.contact-social {
+  margin: 0;
+  width: 65%;
+}
 
   /* #OurPeople .contact-social {
     width:45%;
