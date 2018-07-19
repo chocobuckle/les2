@@ -52,8 +52,8 @@
 
                                 <div class="row">
 
-                                    <div class="section-head col-sm-12">
-                                        <h4>
+                                    <div class="section-head col-sm-12" style="text-align: center;">
+                                        <h4 style="padding-left: 0;">
                                             <span>Submit</span><br>
                                             Your CV
                                         </h4>

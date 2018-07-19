@@ -489,13 +489,13 @@ span, a, a:hover {
 }
 
 .doorstep-image-purple {
-  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep-purple.jpg") left center / cover no-repeat;
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep-purple.jpg") left top / cover no-repeat;
   width: 100%;
   padding-top: 100px;
 }
 
 .group-shot-image {
-  background : url("/lansdowne/wp-content/themes/html5blank2/images/group-shot.jpg") left center / cover no-repeat;
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/group-shot.jpg") left top / cover no-repeat;
 }
 
 .vcard-button {
