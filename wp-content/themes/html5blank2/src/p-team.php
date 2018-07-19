@@ -43,11 +43,15 @@
                                                   ?>
                                                   <br>
                                                   <div class="contact-wrapper">
-                                                    <a class="contact-ph" href="tel:<?php echo $telephone ?>">T: <?php echo $telephone ?></a>
+                                                    <p id="contact-ph">T: <?php echo $telephone ?></p>
                                                     <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
                                                   </div>
                                                   <div class="contact-wrapper">
-                                                    <a class="contact-ph" href="tel:<?php echo $mobile ?>">M: <?php echo $mobile ?></a>
+                                                    <?php
+                                                      if ($name !== 'Caroline Devlin') {
+                                                        echo '<p id="contact-ph">M: '.$mobile.'</p>';
+                                                      }
+                                                    ?>
                                                     <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
                                                   </div>
                                                   <!-- <a href="mailto:<?php echo $email ?>"></a> -->
