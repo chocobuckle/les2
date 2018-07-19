@@ -838,14 +838,24 @@ span, a, a:hover {
   text-align: justify;
   font-size: 16px; }
 
-#OurPeople div.contact-first-wrapper,
-#OurPeople div.contact-second-wrapper {
+#OurPeople div.contact-wrapper {
   display: flex;
 }
 
-#OurPeople div.contact-second-wrapper {
-  justify-content: flex-end;
+#OurPeople div.contact-ph-wrapper,
+#OurPeople div.contact-social-wrapper {
+  display: flex;
+  flex-direction: column;
 }
+
+#OurPeople div.contact-ph-wrapper {
+  width: 100%;
+}
+
+#OurPeople div.contact-social-wrapper {
+  align-items: flex-end;
+}
+
 
 #OurPeople p.contact-ph {
   width: 100%;
@@ -854,7 +864,6 @@ span, a, a:hover {
 
 #OurPeople a.contact-social {
   margin: 0;
-  width: 65%;
 }
 
 /* ----------------------------------------------------------------
