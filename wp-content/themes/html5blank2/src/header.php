@@ -1,22 +1,3 @@
-<?php /*
-			<!-- header -->
-			<header class="header clear" role="banner">
-
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
-			</header>
-			<!-- /header -->
-*/ ?>
-
-
-<!-- CUSTOM -->
-
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 
@@ -43,20 +24,18 @@
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
 
 
 
 		<?php wp_head(); ?>
 		<script>
-		// conditionizr.com
-		// configure environment tests
-		conditionizr.config({
-			assets: '<?php echo esc_url( get_template_directory_uri() ); ?>',
-			tests: {}
-		});
+      conditionizr.config({
+        assets: '<?php echo esc_url( get_template_directory_uri() ); ?>';
+        tests: {}
+      });
 		</script>
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
 
 	<body <?php body_class(); ?>>

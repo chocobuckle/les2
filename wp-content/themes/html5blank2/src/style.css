@@ -871,19 +871,24 @@ span, a, a:hover {
   div.social {
     margin-top: 0;
   }
+
   div.social br {
     display: none;
   }
+
   #OurPeople p.contact-ph {
     text-align: center;
   }
+
   #OurPeople div.contact-wrapper {
     flex-direction: column;
     align-items: center;
   }
+
   #OurPeople div.contact-social-wrapper {
     width: 50%;
   }
+
   #OurPeople a.contact-social {
     margin: 0.2em auto;
   }
@@ -1398,6 +1403,10 @@ span, a, a:hover {
       transition: width 0.3s ease; }
     .contact .contact-form button[type='submit']:hover span {
       color: #312884; }
+
+.recaptcha {
+  margin-top: 3em;
+}
 
 /* ----------------------------------------------------------------
      [ End Contact ]
