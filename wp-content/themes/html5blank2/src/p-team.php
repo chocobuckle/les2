@@ -28,10 +28,10 @@
                                           <img src="<?php echo $picture_teammember ?>" alt="">
                                           <img class="disabled" src="<?php echo $picture_teammember_colored ?>" alt="">
                                       </div>
-                                      <div class="info" style="height: 100%;">
+                                      <div class="info">
                                           <h6><?php echo $name ?></h6>
                                           <span><?php echo $position_title ?></span>
-                                          <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                                          <div style="display: flex; flex-direction: column; justify-content: space-between;">
                                             <p><?php echo $description ?></p>
                                             <div class="social">
                                                 <?php if( have_rows('social',  'options')):
