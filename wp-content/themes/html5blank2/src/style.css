@@ -841,17 +841,37 @@ span, a, a:hover {
   .contact-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #OurPeople .contact-ph-wrapper,
+  #OurPeople .contact-social-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-ph-wrapper {
+    width: 100%;
+  }
+
+  #OurPeople .contact-social-wrapper {
+    justify-content: flex-start;
+  }
+
+  #OurPeople .contact-social {
+    margin: 0 auto;
   }
 
   #OurPeople #contact-ph {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0 0;
     text-align: left;
   }
 
-  #OurPeople .contact-social {
+  /* #OurPeople .contact-social {
     width:45%;
-  }
+  } */
 
 /* ----------------------------------------------------------------
      [ End Team ]

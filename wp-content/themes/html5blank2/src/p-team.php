@@ -43,16 +43,18 @@
                                                   ?>
                                                   <br>
                                                   <div class="contact-wrapper">
-                                                    <p id="contact-ph">T: <?php echo $telephone ?></p>
-                                                    <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
-                                                  </div>
-                                                  <div class="contact-wrapper">
-                                                    <?php
-                                                      if ($name !== 'Caroline Devlin') {
-                                                        echo '<p id="contact-ph">M: '.$mobile.'</p>';
-                                                      }
-                                                    ?>
-                                                    <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
+                                                    <div class="contact-ph-wrapper">
+                                                      <p id="contact-ph">T: <?php echo $telephone ?></p>
+                                                      <?php
+                                                        if ($name !== 'Caroline Devlin') {
+                                                          echo '<p id="contact-ph">M: '.$mobile.'</p>';
+                                                        }
+                                                      ?>
+                                                    </div>
+                                                    <div class="contact-social-wrapper">
+                                                      <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
+                                                      <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
+                                                    </div>
                                                   </div>
                                                   <!-- <a href="mailto:<?php echo $email ?>"></a> -->
                                               <?php endwhile;
