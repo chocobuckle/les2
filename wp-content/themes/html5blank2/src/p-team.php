@@ -44,10 +44,10 @@
                                                   <br>
                                                   <div class="contact-wrapper">
                                                     <div class="contact-ph-wrapper">
-                                                      <p id="contact-ph">T: <?php echo $telephone ?></p>
+                                                      <p class="contact-ph">T: <?php echo $telephone ?></p>
                                                       <?php
                                                         if ($name !== 'Caroline Devlin') {
-                                                          echo '<p id="contact-ph">M: '.$mobile.'</p>';
+                                                          echo '<p class="contact-ph">M: '.$mobile.'</p>';
                                                         }
                                                       ?>
                                                     </div>
