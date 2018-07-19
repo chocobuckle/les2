@@ -53,7 +53,13 @@
                                                           echo '<p class="contact-ph">M: '.$mobile.'</p>';
                                                         }
                                                       ?>
-                                                      <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
+                                                      <?php
+                                                        if ($name !== 'Caroline Devlin') {
+                                                          echo '<a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>';
+                                                        } else {
+                                                          echo '<a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>';
+                                                        }
+                                                      ?>
                                                     </div>
                                                   </div>
                                                   <!-- <a href="mailto:<?php echo $email ?>"></a> -->

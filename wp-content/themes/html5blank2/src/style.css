@@ -843,6 +843,10 @@ span, a, a:hover {
   display: flex;
 }
 
+#OurPeople div.contact-second-wrapper {
+  justify-content: flex-end;
+}
+
 #OurPeople p.contact-ph {
   width: 100%;
   font-size: 1.4rem;
