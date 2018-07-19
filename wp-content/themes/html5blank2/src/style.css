@@ -846,17 +846,12 @@ span, a, a:hover {
 #OurPeople p.contact-ph {
   width: 100%;
   font-size: 1.4rem;
-  text-align: left;
 }
 
 #OurPeople a.contact-social {
   margin: 0;
   width: 65%;
 }
-
-  /* #OurPeople .contact-social {
-    width:45%;
-  } */
 
 /* ----------------------------------------------------------------
      [ End Team ]
