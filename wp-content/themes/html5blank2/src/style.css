@@ -484,12 +484,12 @@ span, a, a:hover {
 }
 
 .doorstep-image {
-  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep.jpg") left center / cover no-repeat;
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep.jpg") right bottom / contain no-repeat;
   width: 100%;
 }
 
 .doorstep-image-purple {
-  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep-purple.jpg") left top / cover no-repeat;
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/doorstep-purple.jpg") right bottom / cover no-repeat;
   width: 100%;
   padding-top: 100px;
 }
@@ -832,6 +832,10 @@ span, a, a:hover {
     margin: 0 5px; }
     .team .titem .social a i {
       color: #312884; }
+
+#OurPeople div.info {
+
+}
 
 #OurPeople .info p {
   /* text-align: justify; */
@@ -21842,7 +21846,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-------------------------------------------------------
     [ Preloader ]
 -------------------------------------------------------*/
-.loading {
+/* .loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -21938,4 +21942,4 @@ h1, h2, h3, h4, h5, h6 {
             transform: translate(0, 0); }
   100% {
     -webkit-transform: translate(19px, 0);
-            transform: translate(19px, 0); } }
+            transform: translate(19px, 0); } } */
