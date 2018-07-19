@@ -52,8 +52,8 @@
                                                       ?>
                                                     </div>
                                                     <div class="contact-social-wrapper">
-                                                      <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.jpg" /></a>
-                                                      <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin.png" /></a>
+                                                      <a class="contact-social" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.png" /></a>
+                                                      <a class="contact-social" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin-button.png" /></a>
                                                     </div>
                                                   </div>
                                                   <!-- <a href="mailto:<?php echo $email ?>"></a> -->
