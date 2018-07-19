@@ -40,7 +40,6 @@
                                                     $telephone = get_sub_field('telephone', 'option');
                                                     $mobile = get_sub_field('mobile', 'option');
                                                     $email = get_sub_field('email', 'option');
-                                                    $vcard = get_sub_field('vcard', 'option');
                                                     ?>
                                                     <br>
                                                     <div class="contact-wrapper">
@@ -53,8 +52,10 @@
                                                         ?>
                                                       </div>
                                                       <div class="contact-social-wrapper">
-                                                        <a class="contact-social" style="margin: 0; width: 100%;" href="<?php echo $vcard ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.png" /></a>
-                                                        <a class="contact-social" style="width: 100%;" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin-button.png" /></a>
+                                                        <?php
+                                                         echo '<a class="contact-social" target="_blank" style="margin: 0; width: 100%;" href="/lansdowne/wp-content/uploads/2018/06/'.$name.'.vcf?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/vCard-button.png" /></a>';
+                                                        ?>
+                                                        <a class="contact-social" target="_blank" style="width: 100%;" href="<?php echo $linkedin ?>"><img src="/lansdowne/wp-content/themes/html5blank2/images/linkedin-button.png" /></a>
                                                       </div>
                                                     </div>
                                                     <!-- <a href="mailto:<?php echo $email ?>"></a> -->
