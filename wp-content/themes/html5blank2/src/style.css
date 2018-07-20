@@ -21945,3 +21945,9 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     -webkit-transform: translate(19px, 0);
             transform: translate(19px, 0); } }
+
+@media screen and (min-width: 893px) {
+  .blog .item .post-img img {
+    height: 350px;
+  }
+}
