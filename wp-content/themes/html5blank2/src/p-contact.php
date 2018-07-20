@@ -9,7 +9,7 @@
 ?>
     <!-- =====================================
         ==== Start Contact -->
-        <section class="contact" data-scroll-index="5" id="ContactUs" style="border-bottom: 1px solid black">
+        <section class="contact" data-scroll-index="5" id="ContactUs" style="border-bottom: 1px solid #2E2C7F">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 map">
