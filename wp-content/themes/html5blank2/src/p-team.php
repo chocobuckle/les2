@@ -25,8 +25,8 @@
                                 <div class="titem text-center col-md-6" style="display: flex; flex-direction: column;">
                                     <div style="border-bottom: 2px solid #312884; margin-bottom: 5em; flex-grow: 1; display: flex; flex-direction: column;">
                                       <div class="team-img" style="margin: 0 auto; flex-grow: 0; border: 0.6em solid; border-color: rgba(48, 41, 125, 0.17);">
-                                          <img src="<?php echo $picture_teammember ?>" alt="">
-                                          <img class="disabled" src="<?php echo $picture_teammember_colored ?>" alt="">
+                                          <!-- <img src="<?php echo $picture_teammember ?>" alt=""> -->
+                                          <img src="<?php echo $picture_teammember_colored ?>" alt="">
                                       </div>
                                       <div class="info" style="flex-grow: 1; display: flex; flex-direction: column;">
                                           <h6 style="flex-grow: 0;"><?php echo $name ?></h6>

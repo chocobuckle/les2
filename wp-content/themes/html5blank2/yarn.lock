@@ -809,10 +809,6 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-css-modal@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/css-modal/-/css-modal-1.5.0.tgz#4f680c3a6eb1e690b7f0cf2e977d49b7ea4b5d96"
-
 css-tree@1.0.0-alpha.29:
   version "1.0.0-alpha.29"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha.29.tgz#3fa9d4ef3142cbd1c301e7664c1f352bd82f5a39"
