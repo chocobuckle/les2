@@ -1627,21 +1627,6 @@ div.wpcf7 {
   margin-bottom: 1em;
 }
 
-.confidential-button {
-  background : linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(241, 242, 242, 1) 37.52%, rgba(234, 235, 235, 1) 46.97%, rgba(213, 214, 214, 1) 61.13%, rgba(180, 181, 181, 1) 78.25%, rgba(134, 134, 134, 1) 97.54%, rgba(128, 128, 128, 1) 100%);
-  font-size: 1.8rem;
-  color: #312884;
-  cursor: pointer;
-  border: 1px solid white;
-  display: inline-block;
-  text-align: center;
-  margin: 82px auto 0;
-  padding: 0.75em;
-  border-radius: 0.5em;
-  font-weight: 600;
-  text-decoration: none;
-}
-
 #last-service-button {
   padding-bottom: 1.4em;
 }
@@ -21954,4 +21939,62 @@ h1, h2, h3, h4, h5, h6 {
 
 .bottom-of-contact-form {
   margin: 3em auto;
+}
+
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
+
+.confidential-button {
+  background : linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(241, 242, 242, 1) 37.52%, rgba(234, 235, 235, 1) 46.97%, rgba(213, 214, 214, 1) 61.13%, rgba(180, 181, 181, 1) 78.25%, rgba(134, 134, 134, 1) 97.54%, rgba(128, 128, 128, 1) 100%);
+  font-size: 1.8rem;
+  color: #312884;
+  cursor: pointer;
+  /* border: 1px solid white; */
+  display: inline-block;
+  text-align: center;
+  margin: 82px auto 0;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  text-decoration: none;
 }

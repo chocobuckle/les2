@@ -42,7 +42,7 @@ solutions, in addition to tailored Executive Coaching and Organisational Consult
                           </ul>
                         </div>
                         <div style="display: flex; justify-content;">
-                          <a data-scroll-nav="5" href="#" style="text-decoration: none;" class="confidential-button">FOR A CONFIDENTIAL DISCUSSION PLEASE CONTACT US</a>
+                          <a data-scroll-nav="5" href="#" style="text-decoration: none;" class="confidential-button hvr-ripple-out">FOR A CONFIDENTIAL DISCUSSION PLEASE CONTACT US</a>
                         </div>
                     </div>
 
