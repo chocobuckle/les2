@@ -497,7 +497,7 @@ span, a, a:hover {
 }
 
 .group-shot-image {
-  background : url("/lansdowne/wp-content/themes/html5blank2/images/group-shot.jpg") left top / cover no-repeat;
+  background : url("/lansdowne/wp-content/themes/html5blank2/images/group-shot.jpg") right top / contain no-repeat;
 }
 
 .vcard-button {
@@ -21950,4 +21950,8 @@ h1, h2, h3, h4, h5, h6 {
   .blog .item .post-img img {
     height: 350px;
   }
+}
+
+.bottom-of-contact-form {
+  margin: 3em auto;
 }

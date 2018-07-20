@@ -9,7 +9,7 @@
 ?>
     <!-- =====================================
         ==== Start Contact -->
-        <section class="contact" data-scroll-index="5" id="ContactUs">
+        <section class="contact" data-scroll-index="5" id="ContactUs" style="border-bottom: 1px solid black">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 map">
@@ -43,7 +43,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-6 contact-form group-shot-image">
+                    <div class="col-lg-6 contact-form group-shot-image" style="background-color: #eee; padding-bottom: 0;">
                         <div class="form" id="contact-form">
 
                             <div class="messages"></div>
@@ -52,7 +52,7 @@
 
                                 <div class="row">
 
-                                    <div class="section-head col-sm-12" style="text-align: center;">
+                                    <div class="section-head col-sm-12" style="text-align: center; padding: 0;">
                                         <h4 style="padding-left: 0;">
                                             <span>Submit</span><br>
                                             Your CV
