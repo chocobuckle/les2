@@ -464,18 +464,29 @@ span, a, a:hover {
      [ 04 Start Hero ]
 -----------------------------------------------------------------*/
 .paragraph-text {
-  /* background-color: #eee; */
-  padding: 40px 100px; }
+  padding: 40px 0; }
   .paragraph-text .bold {
     font-weight: 600; }
-@media screen and (max-width: 767px) {
-  .paragraph-text {
-    padding: 25px 35px;
+
+#city-container {
+  width: 72.5%;
+}
+
+@media screen and (max-width: 670px) {
+  #city-container {
+    width: 80%;
   }
 }
-@media screen and (max-width: 991px) {
-  .paragraph-text {
-    padding: 30px 45px;
+
+@media screen and (max-width: 520px) {
+  #city-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #city-container {
+    width: 97%;
   }
 }
 
@@ -1626,6 +1637,14 @@ div.wpcf7 {
 .sectors-list-item {
   margin-bottom: 1em;
   padding-right: 1em;
+}
+
+@media screen and (max-width: 360px) {
+  .sectors-list-item {
+    margin-bottom: 1em;
+    padding-right: 1em;
+    font-size: 1.4rem;
+  }
 }
 
 #last-service-button {
