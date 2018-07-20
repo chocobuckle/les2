@@ -90,8 +90,35 @@ body {
 }
 
 h1.popup__title,
-p.modal__text {
+p.modal__text,
+p.modal__text__bold,
+ul.modal__text,
+li.modal__text {
   color: white;
+}
+
+h1.popup__title {
+  font-weight: 700;
+
+}
+
+p.modal__text__bold {
+  text-align: left;
+  font-weight: 700;
+
+}
+
+p.modal__text,
+ul.modal__text,
+li.modal__text {
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+ul.modal__text,
+li.modal__text {
+  margin-left: 1.5em;
 }
 
 .popup:before{
@@ -182,12 +209,11 @@ p.modal__text {
 
 .popup__close{
   font-size: 3rem;
-  font-weight: bold;
   color: white;
   position: fixed;
   text-decoration: none;
-  top: 10px;
-  right: 20px;
+  top: 5px;
+  right: 17px;
 }
 
 
